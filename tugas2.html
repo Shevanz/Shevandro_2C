@@ -1,1 +1,128 @@
-halooo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shevandro Azhar - Personal Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-slate-200">
+
+    <main class="w-full max-w-md mx-auto px-6 py-12 sm:py-16 flex-grow flex flex-col justify-center">
+        
+        <!-- Profile Header -->
+        <div class="text-center mb-7">
+            <!-- Profile Avatar / Inisial -->
+            <div class="relative w-24 h-24 mx-auto mb-5">
+                <img src="https://i.ibb.co.com/RGPySX4z/Passfoto.png" 
+                     alt="Foto Profil Shevandro" 
+                     class="w-full h-full rounded-full object-cover shadow-sm ring-4 ring-white"
+                     onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\"w-full h-full rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-2xl shadow-sm ring-4 ring-white\></div>
+            </div>
+
+            <!-- Name & Profession -->
+            <h1 class="text-2xl font-bold text-slate-900 tracking-tight mb-1">Shevandro Azhar</h1>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">Web Developer & Programer</p>
+            
+            <!-- Short Bio -->
+            <p class="text-sm text-slate-600 leading-relaxed max-w-xs mx-auto">
+                Fokus pada pemrograman web.
+            </p>
+        </div>
+
+          <!-- Links List -->
+        <div class="space-y-3.5 mb-10">
+            <!-- Portfolio Link -->
+            <a href="#" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-between p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:border-slate-400 hover:shadow-md text-slate-900">
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700">
+                        <i class="fa-solid fa-globe text-sm"></i>
+                    </div>
+                    <span class="text-sm font-semibold">Portofolio Saya</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </a>
+
+            <!-- GitHub Link -->
+            <a href="https://github.com/Shevanz" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-between p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:border-slate-400 hover:shadow-md text-slate-900">
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700">
+                        <i class="fa-brands fa-github text-sm"></i>
+                    </div>
+                    <span class="text-sm font-semibold">GitHub</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </a>
+
+            <!-- Instagram Link -->
+            <a href="https://www.instagram.com/shevanz_d/" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-between p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:border-slate-400 hover:shadow-md text-slate-900">
+               <div class="flex items-center space-x-3.5">
+                  <div class="w-9 h-9 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700">
+                      <i class="fa-brands fa-instagram text-sm"></i>
+                  </div>
+                  <span class="text-sm font-semibold">Instagram</span>
+              </div>
+              <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </a>
+
+            <!-- WhatsApp Link -->
+            <a href="https://wa.me/62812524077468" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-between p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:border-slate-400 hover:shadow-md text-slate-900">
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700">
+                        <i class="fa-brands fa-whatsapp text-sm"></i>
+                    </div>
+                    <span class="text-sm font-semibold">Diskusi via WhatsApp</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </a>
+
+            <!-- Email Link -->
+            <a href="mailto:shevandroazar@gmail.com" class="link-card flex items-center justify-between p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm hover:border-slate-400 hover:shadow-md text-slate-900">
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700">
+                        <i class="fa-regular fa-envelope text-sm"></i>
+                    </div>
+                    <span class="text-sm font-semibold">Kirim Email</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+            </a>
+        </div>
+
+        <!-- Minimal Status Indicator -->
+        <div class="text-center">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-700 text-xs font-medium">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                Open for new projects
+            </span>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-xs text-slate-400 border-t border-slate-200/60">
+        <p>&copy; <span id="year"></span> Shevandro Azhar</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+    
+</body>
+</html>
