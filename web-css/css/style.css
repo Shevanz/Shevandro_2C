@@ -1,14 +1,14 @@
 /* memberikan style pada semua */
 body {
-    font: 16px arial, sans-ser;
-    background-color: rgb(140, 173, 202);
+    font: 15.5px arial, sans-serif;
+    background-color: rgb(174, 203, 218);
 }
 
 /* membuat canvas putih ditengah */
 .container {
     width: 800px;
     margin: auto;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(236, 236, 236);
 }
 
 /* mengatur jarak dalam header */
@@ -38,4 +38,27 @@ header {
     display: inline-block;
     margin-right: 10px;
     margin-top: 20px;
+}
+
+/* Menghhilangkan garis bawah */
+.nav li a {
+    text-decoration: none;
+    color: rgb(26, 1, 250);
+}
+
+/* ketika navigas disorot mouse */
+.nav li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+    
+/*untuk css banner*/
+.banner {
+    height: 300px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: 0px -150px;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid skyblue;
 }
