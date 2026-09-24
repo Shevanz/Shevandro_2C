@@ -1,0 +1,41 @@
+/* memberikan style pada semua */
+body {
+    font: 16px arial, sans-ser;
+    background-color: rgb(140, 173, 202);
+}
+
+/* membuat canvas putih ditengah */
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+}
+
+/* mengatur jarak dalam header */
+header {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* specify css elemen */
+.header .judul {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* Bagian NAV */
+
+ /* mengatur display inline-block agar bisa diberikan dimensi */
+.nav {
+    padding: 0px;
+}
+
+.nav li {
+    /* agar menjadi kesamping tidak kebawah */
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+}
