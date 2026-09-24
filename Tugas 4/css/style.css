@@ -1,0 +1,5 @@
+/* membuat elemen judul menjadi berwarna */
+.Judul {
+    color: aqua;
+    font-size: 25px;
+}
