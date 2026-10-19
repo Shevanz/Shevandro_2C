@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar DOM</title>
+</head>
+<body>
+    <h1 id="judul">Belajar DOM</h1>
+    <p>Paragraf 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus. Aut ab hic quasi odio sapiente quaerat? Quo, ipsam numquam accusamus natus fugit magnam animi, magni velit est quae laudantium?</p>
+    <p>Paragraf 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet pariatur esse culpa ad nihil nostrum facere est excepturi eius architecto tempore ipsam animi vero optio libero minus, molestiae ea facilis?</p>
+    
+    <h3 class="daftar">Daftar</h3>
+    <ul>
+        <li>Argentina</li>
+        <li>Brazil</li>
+        <li>India</li>
+        <li>Indonesia</li>
+        <li>MAlaysia</li>
+    </ul>
+
+    <script>
+        let judul=document.getElementById('judul');
+        console.log(judul);
+
+        let daftar=document.getElementsByClassName('daftar');
+        console.log(daftar);
+
+        let p=document.getElementsByTagName('p');
+        console.log(p);
+
+        let list=document.querySelectorAll('li');
+        console.log(list);
+    </script>
+</body>
+</html>
